@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\AmbientLightSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Colour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Cube.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Direction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\DirectionalLightSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\ImageDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\LightSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Normal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\PinholeCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Plane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\PointLightSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\rayTracerMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\SceneReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Torus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Vector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\AmbientLightSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Colour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Cube.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Cylinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Direction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\DirectionalLightSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\ImageDisplay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\LightSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\NonCopyable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Normal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\PinholeCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Plane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\PointLightSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Ray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\RayIntersection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\SceneReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Sphere.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\stb_image_write.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Torus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\sampleScene.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\snowman.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\CMakeLists.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="planetest.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="planetest2.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="cubez.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="lighttest.txt" />
+    <Text Include="shadow.txt" />
+  </ItemGroup>
+</Project>

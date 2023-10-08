@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{ab109ec1-9f0e-4800-92f5-2d8e5cd6d6ba}</ProjectGuid>
+    <RootNamespace>RayTracer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\AmbientLightSource.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Camera.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Colour.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Cube.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Cylinder.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Direction.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\DirectionalLightSource.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\ImageDisplay.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\LightSource.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Material.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Matrix.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Normal.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Object.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\PinholeCamera.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Plane.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Point.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\PointLightSource.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\rayTracerMain.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Scene.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\SceneReader.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Sphere.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Torus.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Transform.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\utility.cpp" />
+    <ClCompile Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Vector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\AmbientLightSource.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Camera.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Colour.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Cube.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Cylinder.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Direction.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\DirectionalLightSource.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\ImageDisplay.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\LightSource.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Material.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Matrix.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\NonCopyable.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Normal.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Object.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\PinholeCamera.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Plane.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Point.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\PointLightSource.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Ray.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\RayIntersection.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Scene.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\SceneReader.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Sphere.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\stb_image_write.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Torus.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Transform.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\utility.h" />
+    <ClInclude Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\Vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\CMakeLists.txt" />
+    <Text Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\sampleScene.txt" />
+    <Text Include="..\..\..\Documents\uni\uni\Masters\COSC450\RayTracerSkeleton2023\snowman.txt" />
+    <Text Include="cubez.txt" />
+    <Text Include="lighttest.txt" />
+    <Text Include="planetest.txt" />
+    <Text Include="planetest2.txt" />
+    <Text Include="shadow.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
