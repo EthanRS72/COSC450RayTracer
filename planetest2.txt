@@ -1,0 +1,36 @@
+Scene
+	BackgroundColour 0 0 0
+	RenderSize 100 100
+	Filename planeTest2.png
+End
+
+Object Plane
+	Colour 1 0 0
+	Scale3 2 0.5 1
+	Translate 0 -1 0
+End
+
+Object Plane
+	Colour 0 1 0
+	Rotate X 45
+End
+
+Object Plane
+	Colour 0 0 1
+	Scale 0.5
+	Rotate Z 45
+	Translate 0 1 0
+End
+
+Camera PinholeCamera 1
+	Translate 0 0 -2
+End
+
+Light AmbientLight
+	Colour 1 1 1
+End
+
+Light PointLight
+	Location -2 2 -4
+	Colour 0.1 0.5 1
+End

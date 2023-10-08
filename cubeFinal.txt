@@ -1,0 +1,32 @@
+Scene
+	BackgroundColour 0 0 0 
+	RenderSize 100 100
+	Filename Fullcube.png
+End
+
+Object Cube
+	Colour 1 1 1
+	Rotate X 45
+	Rotate Y 45
+	Rotate Z 45
+End
+
+Object Plane
+  Scale 10
+  Colour 0.1 0.2 1
+  Rotate X 90
+  Translate 0 1 0
+End
+
+Camera PinholeCamera 1
+	Translate 0 0 -2.5
+End
+
+Light AmbientLight
+	Colour 1 1 1
+End
+
+Light PointLight
+  Location 8 -5 -3
+  Colour 8 8 8
+End

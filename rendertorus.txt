@@ -1,0 +1,36 @@
+Scene
+  BackgroundColour 0 0 0
+  RenderSize 500 500
+  Filename torus.png
+End
+
+Object Torus
+  0.2
+  Scale 0.5
+  Colour 0 0.5 0
+  Specular 2.0 0 0 20
+  Rotate Z -40
+  Rotate Y 50
+  Rotate X 0
+  Translate 2 0 3
+End
+
+Object Plane
+  Scale 10
+  Colour 0.5 0.3 0.7 
+  Mirror 0.5 0.5 0.5
+  Rotate X 90
+  Translate 0 1 0
+End
+
+Camera PinholeCamera 1
+End
+
+Light PointLight
+  Location 4 0 2
+  Colour 8 8 8
+End
+
+Light AmbientLight
+  Colour 0.2 0.2 0.2
+End
